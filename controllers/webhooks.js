@@ -49,7 +49,7 @@ export const clerkWebhooks = async (req, res) => {
       default:
         break;
     }
-  } catch (error) {
+  } catch (error)  {
     res.json({ success: false, message: error.message });
   }
 };
