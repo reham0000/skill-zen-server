@@ -8,3 +8,5 @@ const connectDB = async () => {
   await mongoose.connect(`${process.env.MONGODB_URI}/skillzen`);
 };
 export default connectDB;
+clg
+hello
